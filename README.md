@@ -11,7 +11,7 @@ Turn-based dungeon crawler game developed in **Java** and **Ruby** to apply Obje
 
 ## Repository Structure
 
-- `/src`: Complete Java implementation organized into packages (`irrgarten`, `UI`, `controller`, `main`).
+- `/src`: Complete Java implementation organized into packages (`irrgarten`, `UI`, `controller`, `Main`).
 - `/ruby`: Equivalent Ruby implementation mirroring the class hierarchy, mixins/modules, and MVC structure.
 
 ## Tech Stack
@@ -31,13 +31,12 @@ Turn-based dungeon crawler game developed in **Java** and **Ruby** to apply Obje
    ```bash
    cd src
    javac $(find . -name "*.java")
-   java main.Main
+   java Main.P5
    ```
-   *(Note: Replace `main.Main` with the exact package and class name containing your `main` method if different).*
 
 3. **Run the Ruby version:**
    ```bash
    cd ruby
    ruby main.rb
    ```
-   *(Note: Replace `main.rb` with your main entry script name, such as `test_p4.rb` or `irrgarten.rb`).*
+   *(Note: Replace `main.rb` with the exact name of your main `.rb` entry file).*
